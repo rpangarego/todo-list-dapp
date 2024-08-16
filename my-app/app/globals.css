@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply rounded-md py-[0.5rem] px-5;
+}
+
+.btn-primary {
+  @apply border border-indigo-500 text-indigo-500 bg-transparent hover:bg-gradient-to-br hover:from-indigo-500 hover:to-purple-500 hover:text-white transition;
+}
+
+.btn-disabled {
+  @apply bg-gray-200 text-white cursor-default;
+}
+
+.input-text {
+  @apply border border-gray-300 rounded-md p-2 text-gray-800 bg-white focus:outline-none focus:ring-1 focus:ring-indigo-500;
+}

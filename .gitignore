@@ -1,0 +1,55 @@
+# CONTRACT
+/contract/node_modules
+/contract/.env
+
+# Hardhat files
+/contract/cache
+/contract/artifacts
+
+# TypeChain files
+/contract/typechain
+/contract/typechain-types
+
+# solidity-coverage files
+/contract/coverage
+/contract/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+/contractignition/deployments/chain-31337
+
+# my-app
+# dependencies
+/my-app/node_modules
+/my-app/.pnp
+/my-app/.pnp.js
+/my-app/.yarn/install-state.gz
+
+# testing
+/my-app/coverage
+
+# next.js
+/my-app/.next/
+/my-app/out/
+
+# production
+/my-app/build
+
+# misc
+/my-app/.DS_Store
+/my-app/*.pem
+
+# debug
+/my-app/npm-debug.log*
+/my-app/yarn-debug.log*
+/my-app/yarn-error.log*
+
+# local env files
+/my-app/.env*.local
+/my-app/.env
+
+# vercel
+/my-app/.vercel
+
+# typescript
+/my-app/*.tsbuildinfo
+/next-env.d.ts
